@@ -3,9 +3,9 @@ public:
     int singleNonDuplicate(vector<int>& nums) {
         // handling edge case
         int size=nums.size();
-        if(size==1){
-            return nums[0];
-        }
+        // if(size==1){
+        //     return nums[0];
+        // }
 
         int s=0,e=size-1,mid;
         while(s<=e){
